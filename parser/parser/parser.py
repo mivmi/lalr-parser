@@ -288,7 +288,6 @@ class Position:
         return self.product.length == self.position
 
     def __repr__(self):
-        return f'{self.lhs}, len={self.product.length}'
         return (
             'Position('
                 f'id={self.id}, '
