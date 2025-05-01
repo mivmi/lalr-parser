@@ -20,15 +20,13 @@ setup(
     name='parser',
     version=find_version(),
     author='milad',
-    author_email='milad.deev@gmail.com',
     description='A lightweight LALR parser and lexer framework.',
     long_description=open('README.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/mivmi/lalr-parser',
     project_urls={
         'Source Code': 'https://github.com/mivmi/lalr-parser',
-        'Bug Tracker': 'https://github.com/mivmi/lalr-parser/issues',
-        'Documentation': 'https://github.com/mivmi/lalr-parser/wiki'
+        'Bug Tracker': 'https://github.com/mivmi/lalr-parser/issues'
     },
     license='MIT',
     packages=find_packages(),
