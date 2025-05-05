@@ -13,12 +13,9 @@ It is designed with LALR(1) parsing techniques and an optimized lexical analyzer
 
 ## Installation
 
-Clone the repository:
-
 ```bash
-git clone https://github.com/mivmi/lalr-parser.git
-cd lalr-parser
-pip install -e .
+pip install git+https://github.com/mivmi/lalr-parser.git
+
 ```
 
 ## Usage Example
